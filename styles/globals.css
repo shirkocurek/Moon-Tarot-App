@@ -13,3 +13,11 @@
 .cards {
   @apply flex flex-col items-center justify-center mb-5 cursor-pointer hover:scale-150 transition-transform duration-100 ease-in-out
 }
+
+.reading {
+  @apply px-24
+}
+
+.reading-header{
+  @apply font-bold text-base cursor-pointer
+}
