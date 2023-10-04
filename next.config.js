@@ -4,6 +4,13 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
+  theme: {
+    extend: {
+      fontFamily: {
+        lusitana: ["Lusitana", "serif"],
+      },
+    },
+  },
 }
 
 module.exports = nextConfig

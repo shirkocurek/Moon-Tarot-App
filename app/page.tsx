@@ -3,6 +3,8 @@ import {
   BriefcaseIcon,
   BanknotesIcon,
   HeartIcon,
+  SparklesIcon,
+  ArrowsRightLeftIcon,
 } from "@heroicons/react/24/outline";
 import Image from "next/image";
 
@@ -12,16 +14,14 @@ function HomePage() {
       <Image
         src="/moon.png"
         alt="moon"
-        width={120}
-        height={120}
-        className="pb-5 mt-8"
+        width={110}
+        height={110}
+        className="pb-3 mt-5"
       />
-      <h1 className="text-3xl font-bold mb-2 text-center items-center">
+      <h1 className="text-3xl font-lusitana mb-5 text-center items-center">
         Welcome to Moon Tarot
       </h1>
-      <h6 className="text-base font-bold mb-10 text-center items-center">
-        Choose a reading
-      </h6>
+      <p className="text-lg font-bold mb-10 text-center items-center max-w-xl text-white opacity-60">What does the future have in store for you? Get the answers you need with these Tarot readings.</p>
       <div className="flex space-x-2 text-center mt-5">
         <div className="reading">
           <div className="card">
@@ -63,10 +63,10 @@ function HomePage() {
           </div>
         </div>
       </div>
-      <div className="flex space-x-2 text-center mt-3 pb-10">
+      <div className="flex space-x-2 text-center mt-3 pb-30">
         <div className="reading">
           <div className="card">
-            <SunIcon className="h-8 w-8" />
+            <ArrowsRightLeftIcon className="h-8 w-8" />
             <h2 className="reading-header">Yes/No tarot</h2>
             <Image
               alt="cards"
@@ -92,7 +92,7 @@ function HomePage() {
         </div>
         <div className="reading">
           <div className="card">
-            <BriefcaseIcon className="h-8 w-8" />
+            <SparklesIcon className="h-8 w-8" />
             <h2 className="reading-header">Ying/Yang tarot</h2>
             <Image
               alt="cards"
