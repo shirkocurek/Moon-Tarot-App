@@ -18,10 +18,13 @@ function HomePage() {
         height={110}
         className="pb-3 mt-5"
       />
-      <h1 className="text-3xl font-lusitana mb-5 text-center items-center">
-        Welcome to Moon Tarot
+      <h1 className="text-4xl font-yo mb-5 text-center items-center">
+        MOON TAROT
       </h1>
-      <p className="text-lg font-bold mb-10 text-center items-center max-w-xl text-white opacity-60">What does the future have in store for you? Get the answers you need with these Tarot readings.</p>
+      <p className="text-lg font-Merriweather mb-10 text-center items-center max-w-xl text-white opacity-60">
+        What does the future have in store for you? Get the answers you need
+        with these Tarot readings.
+      </p>
       <div className="flex space-x-2 text-center mt-5">
         <div className="reading">
           <div className="card">
